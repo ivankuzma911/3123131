@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script id="template" type="text/template">
+        <div>
+             <p class='header'>
+                 <span class='username'>{{username}}</span>
+                 <span class='create'>{{created_on}}</span>
+             </p>
+            {{text}}
+        </div>
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <p>SHOUTBOX</p>
+        <label for="message">
+            <input id="message" type="text">
+            <input type="submit" id="say-button" value="Say">
+        </label>
+
+        <div id="messages">
+
+        </div>
+
+        <p id="more-button">Load more</p>
+    </div>
+    <script data-main="js/app.js" src="js/require.js"></script>
+</body>
+</html>

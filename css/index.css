@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background: #a10606;
+}
+
+.wrapper{
+    width: 230px;
+    border-width: 5px;
+    border-color:grey;
+    border-style:groove;
+    padding: 10px;
+}
+
+label input{
+    float:left;
+}
+label{
+    margin-bottom: 21px;
+    display: block;
+}
+
+label:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+#helper{
+    float:left;
+    clear: none;
+    width: 1px;
+    height: 10px;
+}
+
+label input[type="button"]{
+    color:grey;
+    font-weight: bold;
+}
+
+
+#messages{
+    height: 400px;
+    word-wrap:break-word;
+    overflow: auto;
+    width: 215px;
+    clear:both;
+}
+
+p{
+    text-align: center;
+}
+
+#moreMessages{
+    color:#a10606;
+}
+
+#messages div {
+    border-top: 1px solid lightgray;
+}
+
+.header{
+    margin-top: 2px;
+    text-align: left;
+}
+
+.username{
+    color:red;
+}
+
+.create{
+    float:right;
+}
